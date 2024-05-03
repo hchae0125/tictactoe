@@ -121,10 +121,29 @@ body {
 
 .play__board__table {
     width: 360px;
+    table-layout: fixed;
 }
 
 .row {
     height: 120px;
+}
+
+.box {
+    align-items: center;
+}
+
+.circle__doodle {
+    background: url('imgs/circle_doodle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-delay: 1s;
+    transition: ease-in-out 500ms;
+}
+
+.star__doodle {
+    background: url('imgs/star_doodle.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .play__board__table,.row,.box {
@@ -172,4 +191,5 @@ body {
     font-size: 3rem;
     font-weight: 300;
 }
+
 
