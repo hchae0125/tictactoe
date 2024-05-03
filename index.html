@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/67d8c697ed.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div id="home">
+            <div class="home__toggle">
+                <img src="imgs/toggle_background_doodle.png" class="home__toggle__background" />
+                <button class="home__toggle__button" aria-label="game level toggle">
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+            </div>
+            <div class="home__title">
+                <h1 class="home__title__main">Tic Tac Toe.</h1>
+                <h4 class="home__title__description">A Classic Game</h4> 
+                <img src="imgs/home_background_doodle.png" class="home__title__background" />
+            </div>
+            <div class="home__button">
+                <button class="home__button__button" aria-label="play button">
+                    Play
+                </button>
+                <img src="imgs/button_background_doodle.png" class="home__button__background" />
+            </div>
+        </div>
+        <div id="play">
+            <div class="play__container">
+                <button class="play__button">
+                    <!-- <i class="fa-solid fa-play"></i> -->
+                    <i class="fa-solid fa-pause"></i>
+                </button>
+                <div class="play__level">
+                    <h4 class="play__level__difficulty">Difficulty</h4>
+                    <p class="play__level__level">Easy</p>
+                </div>
+                <div class="play__board">
+                    <table class="play__board__table">
+                        <tr class="row">
+                            <td class="box">
+                                
+                            </td>
+                            <td class="box">
+                                
+                            </td>
+                            <td class="box">
+                                
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="box">
+        
+                            </td>
+                            <td class="box">
+        
+                            </td>
+                            <td class="box">
+        
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="box">
+        
+                            </td>
+                            <td class="box">
+        
+                            </td>
+                            <td class="box">
+        
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="play__score">
+                    <div class="score__panel">
+                        <div class="score__panel__player">Computer</div>
+                        <div class="score__panel__score">00</div>
+                    </div>
+                    <div class="score__panel">
+                        <div class="score__panel__player">You</div>
+                        <div class="score__panel__score">00</div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
